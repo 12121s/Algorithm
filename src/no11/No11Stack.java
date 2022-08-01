@@ -28,7 +28,7 @@ public class No11Stack {
                 }
                 stack.pop();
                 answer.append("-\n");
-            } else if (A[i] < i) {
+            } else {
                 int su = stack.pop();
                 if (su > A[i]) return new StringBuilder("NO");
                 else answer.append("-\n");
