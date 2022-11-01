@@ -1,4 +1,4 @@
-package no4;
+package doit.no4;
 
 import java.io.BufferedReader;
 import java.io.IOException;

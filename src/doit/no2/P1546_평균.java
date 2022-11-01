@@ -1,4 +1,4 @@
-package no2;
+package doit.no2;
 
 import java.util.Scanner;
 public class P1546_평균 {

@@ -1,4 +1,4 @@
-package no1;
+package doit.no1;
 
 import java.util.Scanner;
 public class P11720_숫자의합 {

@@ -1,7 +1,6 @@
-package no11;
+package doit.no11;
 
 import java.util.*;
-import java.util.logging.Logger;
 
 public class No11Stack {
     public static void main(String[] args) {

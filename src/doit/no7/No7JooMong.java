@@ -1,4 +1,4 @@
-package no7;
+package doit.no7;
 
 import java.util.Arrays;
 import java.util.Scanner;
