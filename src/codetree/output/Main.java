@@ -92,6 +92,90 @@ public class Main {
         System.out.printf("%.1fmi = %.1fcm", 1.3, 1.3 * mi_to_cm);
 
         4. 두 실수의 곱
+        double a = 5.26;
+        double b = 8.27;
+
+        System.out.printf("%.3f", a*b);
+
+        - 변수 값 변경 -
+        1. 변수 값 변경
+        int a = 3;
+        a = 6;
+
+        System.out.print(a);
+
+        2. 변수값 교체하기 4
+        int a = 7;
+        a = 4;
+        System.out.print(a);
+
+        3. 문자 변경하기
+        char a = 'C';
+        a = 'T';
+        System.out.print(a);
+
+        4. 다른 변수로부터 변수 값 변경
+        int a = 5;
+        int b = 3;
+        a = b;
+
+        System.out.println(a);
+        System.out.print(b);
+
+        5. 변수값 교체하기 5
+        int a = 2;
+        int b = 6;
+        a = b;
+        System.out.println(a);
+        System.out.print(b);
+
+        6. 정수 복사
+        int a = 3;
+        int b = 4;
+        b = a;
+        System.out.println(a + " " + b);
+        System.out.print(a*b);
+
+        *** 두 변수 값을 교환 ***
+        1. 두 변수 값을 교환
+        int a = 3;
+        int b = 5;
+        a = a + b - (b = a);
+
+        System.out.println(a);
+        System.out.print(b);
+
+        2. 변수값 교체하기6
+        int a = 2;
+        int b = 5;
+        a = a ^ b ^ (b = a);
+
+        System.out.println(a);
+        System.out.print(b);
+
+        3. 데이터 교환
+        int a = 5, b = 6, c = 7;
+        a = a + b + c - (c = b) - (b = a);
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.print(c);
+
+        4. 변수값 동시에 복사
+        int a = 1, b = 2, c = 3;
+        a = b = c;
+        System.out.printf("%d %d %d", a, b, c);
+
+        5. 변수값 복사하기 2
+        int a = 5, b = 6, c = 7;
+        a = b = c;
+        System.out.printf("%d %d %d", a, b, c);
+
+        6. 합을 복사하기
+        int a = 1, b = 2, c = 3;
+        a = b = c = a + b + c;
+
+        System.out.printf("%d %d %d", a, b, c);
 
         */
     }
