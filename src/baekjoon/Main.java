@@ -11,7 +11,9 @@ public class Main {
 //        ArithOperation.printResult();
 //        ChangeYear.printResult();
 //        ChessPiece.printResult();
-        Remainder.printResult();
+//        Remainder.printResult();
+//        Digits3Multiply.printResult();
+        PrintAnimal.printResult();
 
         // memory usage
         MemoryUseCheck.checkMemoryUse();
