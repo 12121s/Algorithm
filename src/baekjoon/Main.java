@@ -1,9 +1,7 @@
 package baekjoon;
 
 import baekjoon.level01.*;
-import baekjoon.level02.EarlierAlarm;
-import baekjoon.level02.LeapYear;
-import baekjoon.level02.Quadrant;
+import baekjoon.level02.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +18,9 @@ public class Main {
         // level 02
 //        LeapYear.printResult();
 //        Quadrant.printResult();
-        EarlierAlarm.printResult();
+//        EarlierAlarm.printResult();
+//        OvenAlarm.printResult();
+        DiceGame.printResult();
 
         // memory usage
         MemoryUseCheck.checkMemoryUse();
