@@ -3,11 +3,14 @@ package baekjoon;
 import baekjoon.level01.*;
 import baekjoon.level02.*;
 import baekjoon.level03.*;
+import baekjoon.level04.No_10807;
+import baekjoon.level04.No_10818;
+import baekjoon.level04.No_10871;
 
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         long beforeTime = System.currentTimeMillis();
 
         // level 01
@@ -33,7 +36,12 @@ public class Main {
 //        QuickPlusTable2.printResult();
 //        PrintStar.printShortResult();
 //        PrintStar.printResult();
-        PlusCycle.printResult();
+//        PlusCycle.printResult();
+//        No_10807.printResult();
+//        No_10807.printFasterResult();
+//        No_10871.printNFasterResult();
+//        No_10818.printLoopResult();
+        No_10818.printSortResult();
 
         // memory usage
         MemoryUseCheck.checkMemoryUse();
