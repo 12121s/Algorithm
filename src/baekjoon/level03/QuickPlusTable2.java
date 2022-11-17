@@ -26,6 +26,35 @@ public class QuickPlusTable2 {
         }
     }
 
+    public static void printResultBuilder() {
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            StringBuilder sb = new StringBuilder();
+
+            int N = Integer.parseInt(br.readLine());
+
+            for (int i = 1; i <= N; i++) {
+                StringTokenizer st = new StringTokenizer(br.readLine());
+                int first = Integer.parseInt(st.nextToken());
+                int second = Integer.parseInt(st.nextToken());
+                sb.append("Case #")
+                        .append(i)
+                        .append(": ")
+                        .append(first)
+                        .append(" + ")
+                        .append(second)
+                        .append(" = ")
+                        .append(first + second)
+                        .append("\n");
+            }
+            System.out.println(sb);
+
+            br.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void printShortResult() throws IOException {
         int testCases = sumUntilNewLine();
         StringBuilder answer = new StringBuilder();
