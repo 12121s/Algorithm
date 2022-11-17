@@ -45,15 +45,16 @@ public class No_724 {
     * Memory Usage: 52 MB, less than 66.43% of Java online submissions for Find Pivot Index.
     * */
     public int pivotIndex(int[] nums) { // 포인터 + 슬라이딩 도전
-        int total_sum = Arrays.stream(nums).sum();
-        int left_sum = 0;
-        int pivot = 0;
+        int total_sum = Arrays.stream(nums).sum(); // 배열 전체 합 - pivot 기준 오른쪽 구간의 합 초기값
+        int left_sum = 0; // pivot 기준 왼쪽 구간의 합 초기값
+        int pivot = 0; // 구간을 나누는 기준 숫자의 index
 
         for (int i = 0; i < nums.length; i++) {
             pivot = i;
-            total_sum -= nums[i];
-            if (left_sum == total_sum) return pivot;
-            else left_sum += nums[i];
+            total_sum -= nums[i]; // 오른쪽 구간 -1
+            if (left_sum == total_sum) // 비교
+                return pivot;
+            else left_sum += nums[i]; // 왼쪽 구간 +1
         }
         return -1;
     }
