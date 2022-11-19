@@ -33,7 +33,7 @@ public class Main {
 //        PlusUntilN.printResult();
 //        Receipt.printResult();
 //        QuickPlusTable.printResult();
-//        QuickPlusTable2.printResult();
+        QuickPlusTable2.printResultBuilder();
 //        PrintStar.printShortResult();
 //        PrintStar.printResult();
 //        PlusCycle.printResult();
@@ -41,7 +41,7 @@ public class Main {
 //        No_10807.printFasterResult();
 //        No_10871.printNFasterResult();
 //        No_10818.printLoopResult();
-        No_10818.printSortResult();
+//        No_10818.printSortResult();
 
         // memory usage
         MemoryUseCheck.checkMemoryUse();
