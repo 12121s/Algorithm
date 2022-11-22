@@ -33,10 +33,11 @@ public class Main {
 //        PlusUntilN.printResult();
 //        Receipt.printResult();
 //        QuickPlusTable.printResult();
-        QuickPlusTable2.printResultBuilder();
+//        QuickPlusTable2.printResultBuilder();
 //        PrintStar.printShortResult();
 //        PrintStar.printResult();
 //        PlusCycle.printResult();
+        PlusEof.printResult();
 //        No_10807.printResult();
 //        No_10807.printFasterResult();
 //        No_10871.printNFasterResult();
