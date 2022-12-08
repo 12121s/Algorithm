@@ -1,8 +1,6 @@
 package programmers.intro;
 
 import java.util.Arrays;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 public class Solution_alienLangDictionary {
     public static void main(String[] args) {
