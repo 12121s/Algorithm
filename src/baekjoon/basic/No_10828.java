@@ -17,24 +17,20 @@ public class No_10828 {
                 String command = br.readLine();
 
                 if (command.contains("push")) {
-                    int element = Integer.parseInt(command.substring(command.length() -1));
+                    int element = Integer.parseInt(command.substring(command.indexOf(" ") + 1));
                     stack.push(element);
                 } else if (command.contains("pop")) {
-                    
+                    System.out.println(stack.isEmpty()? -1 : stack.pop());
                 } else if (command.contains("size")) {
-
+                    System.out.println(stack.size());
                 } else if (command.contains("empty")) {
-
+                    System.out.println(stack.isEmpty()? 1 : 0);
                 } else if (command.contains("top")) {
-                    if (stack.isEmpty())
-                        System.out.println(-1);
-                    else System.out.println(stack.lastElement());
+                    System.out.println(stack.isEmpty()? -1 : stack.peek());
                 }
             }
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
