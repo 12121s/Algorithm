@@ -34,25 +34,26 @@ public class No_1697 {
         Queue<Integer> queue = new LinkedList<Integer>();
 
         queue.add(node);
-        int n = 0;
+        int pos = 0; // 현재 위치
         visited[node] = 1;
 
         while (!queue.isEmpty())
         {
-            n = queue.remove();
+            pos = queue.remove();
 
-            if (n == K) return visited[n]-1;
-            if (n-1>=0 && visited[n-1] == 0) {
-                visited[n-1] = visited[n]+1;
-                queue.add(n-1);
+            if (pos == K)
+                return visited[pos]-1;
+            if (pos-1>=0 && visited[pos-1] == 0) { // 좌표 > 0 & 한 번 방문했던 위치 다시 가지 않음.
+                visited[pos-1] = visited[pos]+1;
+                queue.add(pos-1);
             }
-            if (n+1 <= 100000 && visited[n+1] == 0) {
-                visited[n+1] = visited[n]+1;
-                queue.add(n+1);
+            if (pos+1 <= 100000 && visited[pos+1] == 0) {
+                visited[pos+1] = visited[pos]+1;
+                queue.add(pos+1);
             }
-            if (2*n <= 100000 && visited[2*n] == 0) {
-                visited[2*n] = visited[n] + 1;
-                queue.add(2*n);
+            if (2*pos <= 100000 && visited[2*pos] == 0) {
+                visited[2*pos] = visited[pos] + 1;
+                queue.add(2*pos);
             }
         }
         return -1;
