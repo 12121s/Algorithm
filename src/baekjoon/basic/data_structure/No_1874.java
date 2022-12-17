@@ -17,8 +17,16 @@ public class No_1874 {
             }
             StringBuilder sb = new StringBuilder();
 
-            while (true) {
-                if ()
+            int no = 1, x = 0;
+            while (x < stackArr.length) {
+                if (stackArr[x] == no) {
+                    sb.append("-\n");
+                    x++;
+                    no--;
+                } else {
+                    sb.append("+\n");
+                    no++;
+                }
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
