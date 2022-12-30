@@ -22,7 +22,7 @@ public class No_10845 {
                     int element = Integer.parseInt(command.substring(command.indexOf(" ") + 1));
                     queue.add(element);
                 } else if (command.contains("pop")) {
-                    System.out.println(queue.isEmpty()? -1 : queue.pop());
+                    System.out.println(queue.isEmpty()? -1 : queue.poll());
                 } else if (command.contains("size")) {
                     System.out.println(queue.size());
                 } else if (command.contains("empty")) {
@@ -30,7 +30,7 @@ public class No_10845 {
                 } else if (command.contains("front")) {
                     System.out.println(queue.isEmpty()? -1 : queue.peek());
                 } else if (command.contains("back")) {
-                    System.out.println(queue.isEmpty()? -1 : queue.peek());
+                    System.out.println(queue.isEmpty()? -1 : queue.stream().skip((long) queue.size() - 1).findFirst().get());
                 }
             }
         } catch (IOException e) {
