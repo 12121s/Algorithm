@@ -42,8 +42,12 @@ public class Main {
         double a = sc.nextDouble();
         System.out.printf("%.2f", 1.5 + a);
 
-        
-
+        4. 특정 문자를 사이에 두고 입력 받기
+        Scanner sc = new Scanner(System.in);
+        sc.useDelimiter("-"); // - 기준으로 잘라서 입력 받겠다는 뜻
+        String birth = Integer.toString(sc.nextInt()); // 주민번호 앞
+        String special = Integer.toString(sc.nextInt()); // - 주민번호 뒤
+        System.out.println(birth + special);
          */
     }
 }
