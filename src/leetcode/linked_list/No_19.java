@@ -2,38 +2,51 @@ package leetcode.linked_list;
 
 public class No_19 {
     public static void main(String[] args) {
-        System.out.println(removeNthFromEnd(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))), 2).toString());
-        System.out.println(removeNthFromEnd(new ListNode(1), 1).toString());
-        System.out.println(removeNthFromEnd(new ListNode(1, new ListNode(2)), 1).toString());
+        System.out.println(removeNthFromEnd(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))), 2));
+        System.out.println(removeNthFromEnd(new ListNode(1), 1));
+        System.out.println(removeNthFromEnd(new ListNode(1, new ListNode(2)), 1));
     }
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode answer = new ListNode();
+        ListNode reverseNode = reverseList(head);
 
-        ListNode slow = head;
-        ListNode temp = head;
-        ListNode fast = head;
-        int size = 0;
-        int target = 0;
-        int i = 0;
+        return reverseList(remove(reverseNode, n - 1));
+    }
 
-        while (temp.next != null) {
-            i++;
-            slow = slow.next;
-            fast = fast.next.next;
-            if (fast != null && fast.next != null) {
-                size = i;
-                target = size - n;
-            }
-
-            if (temp.next.data.equals(x)) {
-                temp.next = temp.next.next;
-                break;
-            } else {
-                temp = temp.next;
-            }
+    public static ListNode remove(ListNode head, int pos) {
+        if (head == null) {
+            return null;
+        }
+        if (pos == 0) {
+            head = head.next;
+            return head;
         }
 
-        return answer;
+        ListNode node = head;
+        for (int i = 0; i < pos - 1; i++) {
+            if (node == null) {
+                return head;
+            }
+            node = node.next;
+        }
+        node.next = node.next.next;
+
+        return head;
+    }
+
+    public static ListNode reverseList(ListNode head) {
+        if (head == null) return null;
+
+        ListNode tempNode = new ListNode();
+        ListNode prevNode = null;
+
+        while(head != null) {
+            tempNode = head;
+            head = head.next;
+            tempNode.next = prevNode;
+            prevNode = tempNode;
+        }
+
+        return tempNode;
     }
 }
