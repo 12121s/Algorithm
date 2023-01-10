@@ -17,6 +17,13 @@ package leetcode.tree;
 
      @Override
      public String toString() {
-         return val + " " + left + " " + right;
+         return val + " " + toString(left) + " " + toString(right);
+     }
+
+     private String toString(TreeNode root)
+     {
+         if (root == null)
+             return "";
+         return root.val + " " + toString(root.left) + " " + toString(root.right);
      }
  }
