@@ -10,6 +10,12 @@ public class Main {
         * Scanner sc = new Scanner(System.in);
         * int a = sc.nextInt();
         * System.out.print(a + 2);
+        *
+        * 2. 점수 입출력
+        * Scanner sc = new Scanner(System.in);
+        * int score = sc.nextInt();
+        * System.out.printf("Your score is %d point.", score);
+        *
         * */
 
     }
