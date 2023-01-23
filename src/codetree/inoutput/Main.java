@@ -16,6 +16,10 @@ public class Main {
         * int score = sc.nextInt();
         * System.out.printf("Your score is %d point.", score);
         *
+        * 3. 입력받아 계산 4
+        * Scanner sc= new Scanner(System.in);
+        * int a = sc.nextInt();
+        * System.out.print(a*2);
         * */
 
     }
