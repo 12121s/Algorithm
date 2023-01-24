@@ -20,6 +20,11 @@ public class Main {
         * Scanner sc= new Scanner(System.in);
         * int a = sc.nextInt();
         * System.out.print(a*2);
+        *
+        * 4. 정수 입력받아 계산
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * System.out.print((2 * a) + 3);
         * */
 
     }
