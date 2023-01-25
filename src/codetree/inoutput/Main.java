@@ -25,6 +25,12 @@ public class Main {
         * Scanner sc = new Scanner(System.in);
         * int a = sc.nextInt();
         * System.out.print((2 * a) + 3);
+        *
+        * - 실수 입력 -
+        * 1. 실수 받아 그대로 출력
+        * Scanner sc = new Scanner(System.in);
+        * double a = sc.nextDouble();
+        * System.out.printf("%.2f",a);
         * */
 
     }
