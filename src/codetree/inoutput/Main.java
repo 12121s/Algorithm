@@ -31,6 +31,12 @@ public class Main {
         * Scanner sc = new Scanner(System.in);
         * double a = sc.nextDouble();
         * System.out.printf("%.2f",a);
+        *
+        * 2. 길이 단위 환산하기
+        * Scanner sc = new Scanner(System.in);
+        * double ft = sc.nextDouble();
+        * double cm = ft * 30.48;
+        * System.out.printf("%.1f", cm);
         * */
 
     }
