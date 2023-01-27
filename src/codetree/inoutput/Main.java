@@ -37,6 +37,11 @@ public class Main {
         * double ft = sc.nextDouble();
         * double cm = ft * 30.48;
         * System.out.printf("%.1f", cm);
+        *
+        * 3. 실수 입력받아 계산 2
+        * Scanner sc = new Scanner(System.in);
+        * double a = sc.nextDouble();
+        * System.out.printf("%.2f", 1.5 + a);
         * */
 
     }
