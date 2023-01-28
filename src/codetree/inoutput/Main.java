@@ -42,6 +42,14 @@ public class Main {
         * Scanner sc = new Scanner(System.in);
         * double a = sc.nextDouble();
         * System.out.printf("%.2f", 1.5 + a);
+        *
+        * - 공백을 사이에 두고 입력 -
+        * 1. 입력받아 계산 2
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        *
+        * System.out.print(a * b);
         * */
 
     }
