@@ -50,6 +50,12 @@ public class Main {
         * int b = sc.nextInt();
         *
         * System.out.print(a * b);
+        *
+        * 2. 입력받아 계산 5
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        * System.out.print(a + b);
         * */
 
     }
