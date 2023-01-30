@@ -56,6 +56,15 @@ public class Main {
         * int a = sc.nextInt();
         * int b = sc.nextInt();
         * System.out.print(a + b);
+        *
+        * 3. 입력받은 값 교체하기
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        *
+        * // swap
+        * a = a ^ b ^ (b = a);
+        * System.out.print(a + " " + b);
         * */
 
     }
