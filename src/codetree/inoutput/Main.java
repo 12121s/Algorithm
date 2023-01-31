@@ -65,6 +65,12 @@ public class Main {
         * // swap
         * a = a ^ b ^ (b = a);
         * System.out.print(a + " " + b);
+        *
+        * 4. 입력받은 값과 합 출력
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        * System.out.printf("%d %d %d", a, b, a+b);
         * */
 
     }
