@@ -71,6 +71,13 @@ public class Main {
         * int a = sc.nextInt();
         * int b = sc.nextInt();
         * System.out.printf("%d %d %d", a, b, a+b);
+        *
+        * - 2개 줄에 걸쳐 입력 -
+        * 1. 입력받아 계산 3
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        * System.out.print(a * b);
         * */
 
     }
