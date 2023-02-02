@@ -84,6 +84,13 @@ public class Main {
         * int a = sc.nextInt();
         * int b = sc.nextInt();
         * System.out.print(a + " " + b);
+        *
+        * 3. 실수 입력받아 계산
+        * Scanner sc = new Scanner(System.in);
+        * double a = sc.nextDouble();
+        * double b = sc.nextDouble();
+        *
+        * System.out.printf("%.2f", a+b);
         * */
 
     }
