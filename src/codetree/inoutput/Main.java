@@ -78,6 +78,12 @@ public class Main {
         * int a = sc.nextInt();
         * int b = sc.nextInt();
         * System.out.print(a * b);
+        *
+        * 2. 입력받아 출력
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        * System.out.print(a + " " + b);
         * */
 
     }
