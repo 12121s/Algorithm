@@ -91,6 +91,14 @@ public class Main {
         * double b = sc.nextDouble();
         *
         * System.out.printf("%.2f", a+b);
+        *
+        * 4. 세 실수의 반올림
+        * Scanner sc = new Scanner(System.in);
+        * double a = sc.nextDouble();
+        * double b = sc.nextDouble();
+        * double c = sc.nextDouble();
+        *
+        * System.out.printf("%.3f\n%.3f\n%.3f", a, b, c);
         * */
 
     }
