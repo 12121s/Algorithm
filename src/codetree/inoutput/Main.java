@@ -106,6 +106,13 @@ public class Main {
         * int b = sc.nextInt();
         * int c = sc.nextInt();
         * System.out.printf("%d %d %d", a, b, c);
+        *
+        * - 문자, 문자열 입력 -
+        * 1. 문자 받아 출력
+        * Scanner sc = new Scanner(System.in);
+        * String s = sc.next(); // 문자열 입력
+        * char c = s.charAt(0); // 입력받은 문자열의 첫 번째 문자 추출
+        * System.out.println(c);
         * */
 
     }
