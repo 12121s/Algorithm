@@ -99,6 +99,13 @@ public class Main {
         * double c = sc.nextDouble();
         *
         * System.out.printf("%.3f\n%.3f\n%.3f", a, b, c);
+        *
+        * 5. 정수 세 개 입력받아 출력
+        * Scanner sc = new Scanner(System.in);
+        * int a = sc.nextInt();
+        * int b = sc.nextInt();
+        * int c = sc.nextInt();
+        * System.out.printf("%d %d %d", a, b, c);
         * */
 
     }
