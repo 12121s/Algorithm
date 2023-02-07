@@ -113,6 +113,12 @@ public class Main {
         * String s = sc.next(); // 문자열 입력
         * char c = s.charAt(0); // 입력받은 문자열의 첫 번째 문자 추출
         * System.out.println(c);
+        *
+        * 2. 문자열 입력
+        * Scanner sc = new Scanner(System.in);
+        * String s = sc.next(); // 문자열 입력
+        *
+        * System.out.println(s);
         * */
 
     }
