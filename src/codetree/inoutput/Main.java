@@ -129,6 +129,19 @@ public class Main {
         * System.out.println(c);
         * System.out.printf("%.2f\n", a);
         * System.out.printf("%.2f", b);
+        *
+        * 4. 문자열 순서 바꾸기
+        * Scanner sc = new Scanner(System.in);
+        * String s = sc.next(); // 문자열 입력
+        * String t = sc.next(); // 문자열 입력
+        * String temp = "";
+        *
+        * temp = s;
+        * s = t;
+        * t = temp;
+        *
+        * System.out.println(s);
+         * System.out.println(t);
         * */
 
     }
