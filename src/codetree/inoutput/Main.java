@@ -119,6 +119,16 @@ public class Main {
         * String s = sc.next(); // 문자열 입력
         *
         * System.out.println(s);
+        *
+        * 3. 실수와 문자 받아 출력하기
+        * Scanner sc = new Scanner(System.in);
+        * String c = sc.next(); // 문자열 입력
+        * double a = sc.nextDouble();
+        * double b = sc.nextDouble();
+        *
+        * System.out.println(c);
+        * System.out.printf("%.2f\n", a);
+        * System.out.printf("%.2f", b);
         * */
 
     }
