@@ -141,7 +141,16 @@ public class Main {
         * t = temp;
         *
         * System.out.println(s);
-         * System.out.println(t);
+        * System.out.println(t);
+        *
+        * - 특정 문자를 사이에 두고 2개의 값을 입력 -
+        * 1. 1시간 뒤 시간 출력
+        * Scanner sc = new Scanner(System.in);
+        * sc.useDelimiter(":"); // : 기준으로 잘라서 입력 받겠다는 뜻
+        *
+        * int h = sc.nextInt(); // : 기호가 나오기 전까지 입력 진행
+        * int m = sc.nextInt(); // : 기호가 나오기 전 or 입력의 마지막 부분까지 진행
+        * System.out.println(h + 1 + ":" + m);
         * */
 
     }
