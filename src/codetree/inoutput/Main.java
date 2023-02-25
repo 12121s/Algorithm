@@ -160,6 +160,13 @@ public class Main {
         * int year = sc.nextInt(); // - 기호가 나오기 전 or 입력의 마지막 부분까지 진행
         *
         * System.out.println(year + "." + month + "." + day);
+        *
+        * 3. 입력받아 출력
+        * Scanner sc = new Scanner(System.in);
+        * sc.useDelimiter("-"); // - 기준으로 잘라서 입력 받겠다는 뜻
+        * String birth = Integer.toString(sc.nextInt()); // 주민번호 앞
+        * String special = Integer.toString(sc.nextInt()); // - 주민번호 뒤
+        * System.out.println(birth + special);
         * */
 
     }
