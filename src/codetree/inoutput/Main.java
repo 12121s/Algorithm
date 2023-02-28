@@ -1,5 +1,8 @@
 package codetree.inoutput;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Main {
@@ -176,6 +179,17 @@ public class Main {
         * int day = sc.nextInt(); // - 기호가 나오기 전 or 입력의 마지막 부분까지 진행
         *
         * System.out.println(month + "-" + day + "-" + year);
+        *
+        * 5. 전화번호 바꾸기
+        * BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        * try {
+        *     String phone = bf.readLine();
+        *     String[] numbers = phone.split("-");
+        *
+        *     System.out.println(numbers[0] + "-" + numbers[2] + "-" + numbers[1]);
+        * } catch (IOException e) {
+        *     throw new RuntimeException(e);
+        * }
         * */
 
     }
