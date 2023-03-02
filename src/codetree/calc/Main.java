@@ -15,6 +15,17 @@ public class Main {
         * System.out.println(a / b);
         * System.out.println(a % b);
         *
+        * 2. 길이 변형 후 사각형 넓이 구하기
+        * Scanner sc = new Scanner(System.in);
+        * int width = sc.nextInt() + 8;
+        * int height = sc.nextInt() * 3;
+        *
+        * System.out.println(width);
+        * System.out.println(height);
+        * System.out.println(width * height);
         * */
+
+
+
     }
 }
