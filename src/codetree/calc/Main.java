@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         /* - 사칙연산 -
         * 1. 간단한 사칙연산
-        * 
+        *
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -42,6 +42,15 @@ public class Main {
         int b = sc.nextInt();
 
         System.out.println(a/b + "..." + a%b);
+        *
+        * 5. 입력받아 연산하기
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt() + 87;
+        int b = sc.nextInt() % 10;
+
+        System.out.println(a);
+        System.out.println(b);
         *
         * */
 
