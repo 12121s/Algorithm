@@ -52,9 +52,18 @@ public class Main {
         System.out.println(a);
         System.out.println(b);
         *
+        * 6. 2개의 정수를 서로 더하기
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        a += b; // b를 a에 더하기
+        b += a; // a를 b에 더하기
+
+        System.out.println(a + " " + b);
+        *
         * */
-
-
 
     }
 }
