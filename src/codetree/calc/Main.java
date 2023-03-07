@@ -63,6 +63,13 @@ public class Main {
 
         System.out.println(a + " " + b);
         *
+        * 7. 출력 결과
+        *
+        float a;
+        int b=3, c=2;
+        a = b/c;
+        System.out.printf("%.1f", a);
+        *
         * */
 
     }
