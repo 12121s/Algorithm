@@ -68,13 +68,21 @@ public class Main {
         float a;
         int b=3, c=2;
         a = b/c;
-        System.out.printf("%.1f", a);
+        System.out.printf("%.1f", a); // 1.5
         *
         * 8. 출력 결과 2
         *
         int a = 10;
         int b = 5;
         System.out.println((a%b) + " " + (a%(a%b))); // 오류 발생
+        *
+        * 9. 출력 결과 3
+        *
+        int a = 1;
+        double b = 1.3;
+        double c;
+        c = a + b;
+        System.out.printf("%.2f", c); // 2.30
         *
         * */
 
