@@ -70,6 +70,12 @@ public class Main {
         a = b/c;
         System.out.printf("%.1f", a);
         *
+        * 8. 출력 결과 2
+        *
+        int a = 10;
+        int b = 5;
+        System.out.println((a%b) + " " + (a%(a%b))); // 오류 발생
+        *
         * */
 
     }
