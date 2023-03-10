@@ -84,6 +84,14 @@ public class Main {
         c = a + b;
         System.out.printf("%.2f", c); // 2.30
         *
+        * 10. 합과 차의 나눗셈
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.printf("%.2f", (float) (a + b) / (a - b));
+        *
         * */
 
     }
