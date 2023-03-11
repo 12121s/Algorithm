@@ -101,7 +101,29 @@ public class Main {
 
         System.out.printf("%d %.1f", a + b, (float)(a + b) / 2);
         *
+        * 2. 세 수의 합과 평균 구하기
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        System.out.println(sum(a,b,c));
+        System.out.println(avg(a,b,c));
+        *
         * */
 
+    }
+
+    public static int sum(int... nums) {
+        int sum = 0;
+        for (int num: nums) {
+            sum += num;
+        }
+        return sum;
+    }
+
+    public static int avg(int... nums) {
+        return sum(nums) / nums.length;
     }
 }
