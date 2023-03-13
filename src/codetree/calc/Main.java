@@ -111,6 +111,19 @@ public class Main {
         System.out.println(sum(a,b,c));
         System.out.println(avg(a,b,c));
         *
+        * 3. 합과 평균의 차
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int sum = sum(a,b,c);
+        int avg = avg(a,b,c);
+        System.out.println(sum);
+        System.out.println(avg);
+        System.out.println(sum - avg);
+        *
         * */
 
     }
