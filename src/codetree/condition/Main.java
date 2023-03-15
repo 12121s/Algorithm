@@ -14,6 +14,15 @@ public class Main {
         if (a < 0)
             System.out.println("minus");
         *
+        * 2. 큰 수에서 빼기
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(Math.max(a,b) - Math.min(a,b));
+        *
         * */
+
     }
 }
