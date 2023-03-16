@@ -33,6 +33,15 @@ public class Main {
         if (bmi >= 25)
             System.out.println("Obesity");
         *
+        * 4. 정사각형의 넓이
+        *
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        System.out.println(n*n);
+        if (n < 5)
+            System.out.println("tiny");
+        *
         * */
 
     }
