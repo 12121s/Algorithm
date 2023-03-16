@@ -22,6 +22,17 @@ public class Main {
 
         System.out.println(Math.max(a,b) - Math.min(a,b));
         *
+        * 3. 체질량 지수
+        *
+        Scanner sc = new Scanner(System.in);
+        double height = sc.nextInt() / 100.0;
+        int weight = sc.nextInt();
+
+        double bmi = weight / (height * height);
+        System.out.println((int)bmi);
+        if (bmi >= 25)
+            System.out.println("Obesity");
+        *
         * */
 
     }
