@@ -42,6 +42,16 @@ public class Main {
         if (n < 5)
             System.out.println("tiny");
         *
+        * - if else 조건문
+        * 1. 시험 통과 여부 확인하기
+        *
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        if (n >= 80)
+            System.out.println("pass");
+        else System.out.println(80 - n);
+        *
         * */
 
     }
