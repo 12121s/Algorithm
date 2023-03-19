@@ -50,8 +50,15 @@ public class Main {
 
         if (n >= 80)
             System.out.println("pass");
-        else System.out.println(80 - n);
+        else System.out.println(80 - n  + " more score");
         *
+        * 2. 숫자의 조건 여부
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a >= 113)
+            System.out.println("1");
+        else System.out.println("0");
         * */
 
     }
