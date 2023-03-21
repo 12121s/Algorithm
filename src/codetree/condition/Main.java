@@ -59,7 +59,26 @@ public class Main {
         if (a >= 113)
             System.out.println("1");
         else System.out.println("0");
-        * */
+        *
+        * 3. 비교에 따른 연산
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
+        if (a > b)
+            System.out.println(a * b);
+        else System.out.println(b / a);
+        *
+        * - 삼항 연산자 -
+        * 1. 2개 중 최대
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(Math.max(a,b));
+        *
+        * */
     }
 }
