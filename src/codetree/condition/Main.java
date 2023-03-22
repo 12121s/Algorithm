@@ -79,6 +79,14 @@ public class Main {
 
         System.out.println(Math.max(a,b));
         *
+        * 2. 삼항 연산자
+        *
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        String result = n == 100? "pass" : "failure";
+        System.out.println(result);
+        *
         * */
     }
 }
