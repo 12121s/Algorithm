@@ -87,6 +87,13 @@ public class Main {
         String result = n == 100? "pass" : "failure";
         System.out.println(result);
         *
+        * 3. 삼항 연산자 2
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println(a == 1? "t": "f");
+        *
         * */
+
     }
 }
