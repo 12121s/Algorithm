@@ -1,5 +1,7 @@
 package codetree.condition;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -112,6 +114,22 @@ public class Main {
         double eye = sc.nextDouble();
 
         System.out.println(eye >= 1.0? "High" : eye >= 0.5? "Middle" : "Low");
+        *
+        * 3. 살 수 있는 물건
+        *
+        Map<String, Integer> stuff = new HashMap<>() {{
+            put("book", 3000);
+            put("mask", 1000);
+        }};
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        if (n > stuff.get("book"))
+            System.out.println("book");
+        else if (n > stuff.get("mask"))
+            System.out.println("mask");
+        else System.out.println("no");
         *
         * */
 
