@@ -93,6 +93,26 @@ public class Main {
         int a = sc.nextInt();
         System.out.println(a == 1? "t": "f");
         *
+        * - if elif else 조건문 -
+        * 1. 물의 상태
+        *
+        Scanner sc = new Scanner(System.in);
+        int water = sc.nextInt();
+
+        String state = "";
+        if (water < 0) state = "ice";
+        else if(water < 100) state = "water";
+        else state = "vapor";
+
+        System.out.println(state);
+        *
+        * 2. 시력 검사 2
+        *
+        Scanner sc = new Scanner(System.in);
+        double eye = sc.nextDouble();
+
+        System.out.println(eye >= 1.0? "High" : eye >= 0.5? "Middle" : "Low");
+        *
         * */
 
     }
