@@ -131,7 +131,19 @@ public class Main {
             System.out.println("mask");
         else System.out.println("no");
         *
+        * - if elif elif else 조건문
+        * 1. 출석 부르기
+        *
+        String[] stu = new String[] {"John", "Tom", "Paul"};
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        if (num <= stu.length) {
+            System.out.println(stu[num - 1]);
+        } else System.out.println("Vacancy");
+        *
         * */
+
 
     }
 }
