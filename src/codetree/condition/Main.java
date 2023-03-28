@@ -142,8 +142,20 @@ public class Main {
             System.out.println(stu[num - 1]);
         } else System.out.println("Vacancy");
         *
-        * */
+        * 2. 등급 매기기
+        *
+        Scanner sc = new Scanner(System.in);
+        int score = sc.nextInt();
 
+        String grade = "";
+        if (score >= 90) grade = "A";
+        else if (score >= 80) grade = "B";
+        else if (score >= 70) grade = "C";
+        else if (score >= 60) grade = "D";
+        else grade = "F";
+        System.out.println(grade);
+        *
+        * */
 
     }
 }
