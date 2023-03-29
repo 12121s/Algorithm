@@ -1,5 +1,8 @@
 package codetree.condition;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -155,7 +158,26 @@ public class Main {
         else grade = "F";
         System.out.println(grade);
         *
+        * 3. 알파벳에 따른 평가
+        *
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            String s = br.readLine();
+            String result = switch (s) {
+                case "S" -> "Superior";
+                case "A" -> "Excellent";
+                case "B" -> "Good";
+                case "C" -> "Usually";
+                case "D" -> "Effort";
+                default -> "Failure";
+            };
+            System.out.println(result);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        *
         * */
+
 
     }
 }
