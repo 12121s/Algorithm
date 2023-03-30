@@ -189,6 +189,17 @@ public class Main {
             System.out.println("pen");
         else System.out.println("no");
         *
+        * - if if 조건문 -
+        * 1. 최대 2번의 연산
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        if (a % 2 == 0) a /= 2;
+        if (a % 2 == 1) a = (a + 1) / 2;
+
+        System.out.println(a);
+        *
         * */
 
     }
