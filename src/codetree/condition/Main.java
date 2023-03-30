@@ -128,9 +128,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        if (n > stuff.get("book"))
+        if (n >= stuff.get("book"))
             System.out.println("book");
-        else if (n > stuff.get("mask"))
+        else if (n >= stuff.get("mask"))
             System.out.println("mask");
         else System.out.println("no");
         *
@@ -176,8 +176,20 @@ public class Main {
             throw new RuntimeException(e);
         }
         *
-        * */
+        * 4. 살 수 있는 물건 2
+        *
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
+        if (n >= 3000)
+            System.out.println("book");
+        else if (n >= 1000)
+            System.out.println("mask");
+        else if (n >= 500)
+            System.out.println("pen");
+        else System.out.println("no");
+        *
+        * */
 
     }
 }
