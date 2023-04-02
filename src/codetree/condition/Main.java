@@ -207,6 +207,16 @@ public class Main {
         if (a == 5) System.out.println("A");
         if (a % 2 == 0) System.out.println("B");
         *
+        * 3. 두 번의 연산
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a % 2 == 1) a += 3;
+        if (a % 3 == 0) a /= 3;
+
+        System.out.println(a);
+        *
         * */
+
     }
 }
