@@ -216,6 +216,16 @@ public class Main {
 
         System.out.println(a);
         *
+        * - if else if else 조건문 -
+        * 1. 두 숫자의 짝홀 여부
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println( a % 2 == 0? "even" : "odd");
+        System.out.println( b % 2 == 0? "even" : "odd");
+        *
         * */
 
     }
