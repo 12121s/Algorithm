@@ -226,7 +226,16 @@ public class Main {
         System.out.println( a % 2 == 0? "even" : "odd");
         System.out.println( b % 2 == 0? "even" : "odd");
         *
+        * 2. 특정 조건 두 정수 비교
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println((a < b? 1 : 0) + " " + (a == b? 1 : 0));
+        *
         * */
+
 
     }
 }
