@@ -242,6 +242,20 @@ public class Main {
         System.out.println(a % 3 == 0? "YES": "NO");
         System.out.println(a % 5 == 0? "YES": "NO");
         *
+        * - 비교 연산자와 조건문 -
+        * 1. 비교 연산
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(a >= b? 1 : 0);
+        System.out.println(a > b? 1 : 0);
+        System.out.println(a <= b? 1 : 0);
+        System.out.println(a < b? 1 : 0);
+        System.out.println(a == b? 1 : 0);
+        System.out.println(a != b? 1 : 0);
+        *
         * */
 
     }
