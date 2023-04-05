@@ -234,8 +234,15 @@ public class Main {
 
         System.out.println((a < b? 1 : 0) + " " + (a == b? 1 : 0));
         *
-        * */
+        * 3. 3 또는 5의 배수
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
 
+        System.out.println(a % 3 == 0? "YES": "NO");
+        System.out.println(a % 5 == 0? "YES": "NO");
+        *
+        * */
 
     }
 }
