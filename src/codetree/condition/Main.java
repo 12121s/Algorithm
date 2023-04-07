@@ -256,6 +256,16 @@ public class Main {
         System.out.println(a == b? 1 : 0);
         System.out.println(a != b? 1 : 0);
         *
+        * 2. 4가지 관계연산자
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(a >= b? 1 : 0);
+        System.out.println(a > b? 1 : 0);
+        System.out.println(a <= b? 1 : 0);
+        System.out.println(a < b? 1 : 0);
         * */
 
     }
