@@ -292,6 +292,13 @@ public class Main {
 
         System.out.println(aMath > bMath && aEng > bEng ? 1 : 0);
         *
+        * 2. 범위 안의 수
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        System.out.println(a >= 10 && a <= 20 ? "yes" : "no");
+        *
         * */
     }
 }
