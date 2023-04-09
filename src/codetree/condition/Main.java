@@ -281,7 +281,17 @@ public class Main {
         System.out.println(a > d? 1 : 0);
         System.out.println(a > e? 1 : 0);
         *
-        * */
+        * - and 기호 -
+        * 1. 점수 비교
+        *
+        Scanner sc = new Scanner(System.in);
+        int aMath = sc.nextInt();
+        int aEng = sc.nextInt();
+        int bMath = sc.nextInt();
+        int bEng = sc.nextInt();
 
+        System.out.println(aMath > bMath && aEng > bEng ? 1 : 0);
+        *
+        * */
     }
 }
