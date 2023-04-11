@@ -299,6 +299,19 @@ public class Main {
 
         System.out.println(a >= 10 && a <= 20 ? "yes" : "no");
         *
+        * 3. 시력 검사
+        *
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+
+        String grade = "";
+        if (a >= 1.0 && b >= 1.0) grade = "High";
+        else if (a >= 0.5 && b >= 0.5) grade = "Middle";
+        else grade = "Low";
+
+        System.out.println(grade);
+        *
         * */
     }
 }
