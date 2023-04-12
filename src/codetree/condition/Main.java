@@ -3,9 +3,7 @@ package codetree.condition;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -312,6 +310,15 @@ public class Main {
 
         System.out.println(grade);
         *
-        * */
+        * 4. 특정 조건 세 정수 비교
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        List<Integer> list = Arrays.asList(a, b, c);
+        System.out.println((a == Collections.min(list)? 1 : 0) + " " + (a == b && b == c? 1 : 0));
+        *
+        *  */
     }
 }
