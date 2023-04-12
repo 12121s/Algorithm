@@ -319,6 +319,15 @@ public class Main {
         List<Integer> list = Arrays.asList(a, b, c);
         System.out.println((a == Collections.min(list)? 1 : 0) + " " + (a == b && b == c? 1 : 0));
         *
-        *  */
+        * 5. 세 정수의 최솟값
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        List<Integer> list = Arrays.asList(a, b, c);
+        System.out.println(Collections.min(list));
+        *
+        * */
     }
 }
