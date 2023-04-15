@@ -337,6 +337,14 @@ public class Main {
 
         System.out.println(a < b && b < c? 1 : 0);
         *
+        * - or 기호 -
+        * 1. 범위 밖의 수
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println(a < 10 || a > 20? "yes": "no");
+        *
         * */
+
     }
 }
