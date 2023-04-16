@@ -350,8 +350,13 @@ public class Main {
         int a = sc.nextInt();
         System.out.println(a % 13 == 0 || a % 19 == 0 ? "True" : "False");
         *
+        * 3. 둘 중 하나의 배수
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println(a % 3 == 0 || a % 5 == 0 ? 1:0);
+        *
         * */
-
 
     }
 }
