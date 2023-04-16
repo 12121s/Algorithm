@@ -344,7 +344,14 @@ public class Main {
         int a = sc.nextInt();
         System.out.println(a < 10 || a > 20? "yes": "no");
         *
+        * 2. 숫자의 조건 여부 3
+        *
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println(a % 13 == 0 || a % 19 == 0 ? "True" : "False");
+        *
         * */
+
 
     }
 }
