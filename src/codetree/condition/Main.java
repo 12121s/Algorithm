@@ -356,7 +356,13 @@ public class Main {
         int a = sc.nextInt();
         System.out.println(a % 3 == 0 || a % 5 == 0 ? 1:0);
         *
+        * - and, or 혼합 -
+        * 1. 굉장한 숫자
+        *
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println((n % 2 == 1 && n % 3 == 0) || (n % 2 == 0 && n % 5 == 0)? "true" : "false");
+        *
         * */
-
     }
 }
