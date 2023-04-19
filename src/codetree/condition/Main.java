@@ -377,6 +377,14 @@ public class Main {
 
         System.out.println(season);
         *
+        * 3. 장학금
+        *
+        Scanner sc = new Scanner(System.in);
+        int midScore = sc.nextInt();
+        int finalScore = sc.nextInt();
+
+        System.out.println(midScore >= 90? (finalScore >= 95? 100000 : (finalScore >= 90? 50000 : 0)) : 0);
+        *
         * */
 
     }
