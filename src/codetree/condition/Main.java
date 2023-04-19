@@ -363,6 +363,21 @@ public class Main {
         int n = sc.nextInt();
         System.out.println((n % 2 == 1 && n % 3 == 0) || (n % 2 == 0 && n % 5 == 0)? "true" : "false");
         *
+        * 2. 숫자의 계절은
+        *
+        Scanner sc = new Scanner(System.in);
+        int month = sc.nextInt();
+
+        String season = "";
+        if (month < 3) season = "Winter";
+        else if (month < 6) season = "Spring";
+        else if (month < 9) season = "Summer";
+        else if (month < 12) season = "Fall";
+        else season = "Winter";
+
+        System.out.println(season);
+        *
         * */
+
     }
 }
