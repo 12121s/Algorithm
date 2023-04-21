@@ -385,6 +385,16 @@ public class Main {
 
         System.out.println(midScore >= 90? (finalScore >= 95? 100000 : (finalScore >= 90? 50000 : 0)) : 0);
         *
+        * 4. 좀 더 어려운 수학 점수
+        *
+        Scanner sc = new Scanner(System.in);
+        int aMath = sc.nextInt();
+        int aEng = sc.nextInt();
+        int bMath = sc.nextInt();
+        int bEng = sc.nextInt();
+
+        System.out.println(aMath > bMath ? "A" : (aMath == bMath && aEng > bEng ? "A": "B"));
+        *
         * */
 
     }
