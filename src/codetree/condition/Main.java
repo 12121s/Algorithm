@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) {
@@ -394,6 +395,26 @@ public class Main {
         int bEng = sc.nextInt();
 
         System.out.println(aMath > bMath ? "A" : (aMath == bMath && aEng > bEng ? "A": "B"));
+        *
+        * 5. 두 사람
+        *
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+            boolean target = false;
+            for (int i = 0; i < 2; i++) {
+                StringTokenizer st = new StringTokenizer(br.readLine());
+                int age = Integer.parseInt(st.nextToken());
+                String gender = st.nextToken();
+                if (age >= 19 && gender.equals("M"))
+                    target = true;
+            }
+
+            System.out.println(target? 1 : 0);
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         *
         * */
 
